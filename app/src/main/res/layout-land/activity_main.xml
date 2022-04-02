@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/true1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TRUE"
+            android:layout_marginRight="50dp"/>
+        <Button
+            android:id="@+id/false1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FALSE" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/cheat1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHEAT!"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end|bottom">
+
+
+        <Button
+            android:id="@+id/next1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="NEXT" />
+    </LinearLayout>
+
+
+</LinearLayout>
